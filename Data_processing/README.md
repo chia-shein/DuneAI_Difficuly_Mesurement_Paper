@@ -12,5 +12,5 @@ u5453836@bechl2ctr1733907726803-rsl4p:~$ python inspect_nrrd.py
 
 ## Transfer mhd data to nrrd data
 ```console
-u5453836@bechl2ctr1733907726803-rsl4p:~$ python inspect_nrrd_one.py
+u5453836@bechl2ctr1733907726803-rsl4p:~$ python mhd2nrrd.py
 ```

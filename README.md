@@ -11,6 +11,8 @@ GPU: NVIDIA V100.
 ## Example Datasets
 * Paper provide 3 test patients with NSCLC case from NSCLC-Radiomics-Interobserver1.
   Manual **Segmentations** in **nrrd format**.
+## Data Preprocessing
+* The code has been saved into the **Data_processing** directory.
 ## [NIH data](https://wiki.cancerimagingarchive.net/display/Public/NSCLC-Radiomics-Interobserver1) download details
 1. Download first:
      * NBIA Data Retriever-[window version](https://cbiit-download.nci.nih.gov/nbia/releases/ForTCIA/NBIADataRetriever_4.4/NBIA%20Data%20Retriever-4.4.msi).

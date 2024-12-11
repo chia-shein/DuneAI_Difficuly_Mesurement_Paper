@@ -21,7 +21,8 @@ GPU: NVIDIA V100.
 Docker Image: tensorflow-24.08-tf2-py3:latest.
 ```console
 u5453836@bechl2ctr1733907726803-rsl4p:~$ pip install -r requirements.txt
-u5453836@bechl2ctr1733907726803-rsl4p:~$
+u5453836@bechl2ctr1733907726803-rsl4p:~$ sudo apt-get update
+u5453836@bechl2ctr1733907726803-rsl4p:~$ sudo apt-get install ffmpeg libsm6 libxext6  -y
 ```
 ## Implement steps:
 1. Image pre-processing

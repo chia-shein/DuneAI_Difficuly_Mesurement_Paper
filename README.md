@@ -10,6 +10,13 @@ GPU: NVIDIA V100.
 * One GPU and four CPUs.
 ## Requirements
 Docker Image: pytorch-24.08-py3:latest.
-
+```console
+u5453836@bechl2ctr1733907726803-rsl4p:~$ pip install -r requirements.txt
+u5453836@bechl2ctr1733907726803-rsl4p:~$
+```
+## Implement steps:
+1. Image pre-processing
+2. Tumor Segmentation
+3. Results
 
 

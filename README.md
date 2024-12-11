@@ -7,9 +7,16 @@ CPU:　Intel® Xeon® Platinum 8280L 28 Cores 2.7GHz.\
 Mem: ECC DDR4 2933 Mhz.\
 GPU: NVIDIA V100.
 
-* One GPU and four CPUs.
+* 1 GPU + 04 cores + 090GB memory.
+## Example Datasets
+* Paper provide 3 test patients with NSCLC case from NSCLC-Radiomics-Interobserver1.
+  Manual **Segmentations** in **nrrd format**.
+## NIH data download details
+1. Download first:
+     * NBIA Data Retriever-[window version](https://cbiit-download.nci.nih.gov/nbia/releases/ForTCIA/NBIADataRetriever_4.4/NBIA%20Data%20Retriever-4.4.msi).
+     * [NSCLC-RADIOMICS-INTEROBSERVER1-Aug-31-2020-NBIA-manifest](https://www.cancerimagingarchive.net/wp-content/uploads/NSCLC-RADIOMICS-INTEROBSERVER1-Aug-31-2020-NBIA-manifest.tcia) TCIA file.
 ## Requirements
-Docker Image: pytorch-24.08-py3:latest.
+Docker Image: tensorflow-24.08-tf2-py3:latest.
 ```console
 u5453836@bechl2ctr1733907726803-rsl4p:~$ pip install -r requirements.txt
 u5453836@bechl2ctr1733907726803-rsl4p:~$
@@ -18,5 +25,6 @@ u5453836@bechl2ctr1733907726803-rsl4p:~$
 1. Image pre-processing
 2. Tumor Segmentation
 3. Results
+## Code's modify details
 
 

@@ -1,7 +1,7 @@
 # Data Preprocessing
 ## Info
 * Since the data used in this code needs to be in NRRD format, if we only have data files in other formats like DCM or MHD, we should convert the data before performing model segmentation.
-![](https://github.com/chia-shein/DuneAI_Difficuly_Mesurement_Paper/blob/main/Data_processing/patient1_data.mp4)
+![patient1_data](https://github.com/user-attachments/assets/af28683f-a9ad-4a82-b895-fc69458b63bc)
 ## Inspect the nrrd data
 * We convert the NRRD data into an MP4 file to ensure that the data is correct.\
 “The script **inspect_nrrd.py** is used to check the data provided by the paper’s author.”\
